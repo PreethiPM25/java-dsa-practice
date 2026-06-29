@@ -1,4 +1,4 @@
-Question 3: Longest Substring Without Repeating Characters
+Question 3:  Longest Substring Without Repeating Characters
 
 Given a string s, find the length of the longest substring without duplicate characters.
 Example 1:
@@ -24,7 +24,6 @@ class Solution {
         int left = 0;
         int maxLength = 0;
         HashSet<Character> charSet = new HashSet<>();
-
         for (int right = 0; right < s.length(); right++) {
             while (charSet.contains(s.charAt(right))) {
                 charSet.remove(s.charAt(left));
