@@ -17,7 +17,7 @@ Example 3:
 Input: nums = [3,3], target = 6
 Output: [0,1]
 
-SOLUTION :
+SOLUTION:
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
